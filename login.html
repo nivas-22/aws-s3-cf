@@ -1,107 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Cast Your Vote</title>
-  <style>
-    /* Reset */
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Subscribe to Learn with Nivas - AWS DevOps tutorials and real-time projects.">
+<title>Subscribe | Learn with Nivas</title>
 
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #4e54c8 0%, #8f94fb 100%);
-      color: #fff;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      text-align: center;
-      padding: 20px;
-    }
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
-    h1 {
-      font-size: 3rem;
-      margin-bottom: 20px;
-      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-    }
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    #message {
-      margin-bottom: 30px;
-      font-size: 1.2rem;
-      font-weight: bold;
-    }
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
 
-    .vote-buttons {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-      margin-bottom: 40px;
-    }
+.glass {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 50px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.37);
+}
 
-    button {
-      background-color: #ff6f61; /* more visible reddish-orange */
-      color: #fff;
-      border: none;
-      padding: 15px 30px;
-      font-size: 1.2rem;
-      border-radius: 50px;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    }
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
 
-    button:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
-      background-color: #ff3b2f;
-    }
+.highlight {
+    color: #ff4b2b;
+}
 
-    a.logout {
-      display: inline-block;
-      margin-top: 20px;
-      font-weight: bold;
-      text-decoration: none;
-      color: #fff;
-      background-color: #333; /* dark logout button for contrast */
-      padding: 10px 25px;
-      border-radius: 25px;
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    }
+p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    color: #ddd;
+}
 
-    a.logout:hover {
-      background-color: #111;
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
-    }
+.benefits {
+    text-align: left;
+    margin: 30px 0;
+    line-height: 1.8;
+}
 
-    footer {
-      position: absolute;
-      bottom: 20px;
-      font-size: 0.9rem;
-      color: #fff;
-      opacity: 0.8;
-    }
-  </style>
+.btn {
+    padding: 15px 40px;
+    font-size: 18px;
+    background: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+    display: inline-block;
+    box-shadow: 0 0 15px #ff0000;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background: #cc0000;
+}
+
+iframe {
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.back {
+    margin-top: 30px;
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+}
+</style>
 </head>
+
 <body>
-  <h1>Cast Your Vote</h1>
-  <div id="message">Please select a candidate below:</div>
 
-  <div class="vote-buttons">
-    <button onclick="vote('Alice')">Vote for Alice</button>
-    <button onclick="vote('Bob')">Vote for Bob</button>
-    <button onclick="vote('Charlie')">Vote for Charlie</button>
-  </div>
+<div class="glass">
 
-  <a href="#" class="logout" onclick="logout()">Logout</a>
+    <h1>🚀 Join Future <span class="highlight">DevOps Engineers</span></h1>
 
-  <footer>Powered by AWS | &copy; 2025</footer>
+    <p>
+        Like, subscribe, and comment on your queries.<br>
+        Start your AWS DevOps journey today!
+    </p>
+
+    <!-- Replace VIDEO_ID with your real YouTube video ID -->
+    <iframe width="100%" height="315"
+        src="https://www.youtube.com/embed/VIDEO_ID"
+        frameborder="0"
+        allowfullscreen>
+    </iframe>
+
+    <div class="benefits">
+        ✔ Free AWS DevOps Tutorials<br>
+        ✔ Real-Time Projects & Hands-on Labs<br>
+        ✔ Interview Preparation<br>
+        ✔ Beginner to Advanced Roadmap<br>
+        ✔ Weekly New Content
+    </div>
+
+    <!-- Replace with your actual channel link -->
+    <a href="https://www.youtube.com/@YourChannelName" target="_blank" class="btn">
+        🔔 Subscribe on YouTube
+    </a>
+
+    <a href="index.html" class="back">← Back to Home</a>
+
+</div>
+
 </body>
 </html>
